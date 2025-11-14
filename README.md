@@ -48,7 +48,7 @@ Munshiganj Poultry Feed is a local enterprise providing quality feed, chicks, an
 
 ### Backend
 - **Language**: PHP
-- **Framework**: Laravel (recommended for scalability and security)
+- **Framework**: Laravel 
 - **Database**: MySQL or PostgreSQL
 - **Server**: Apache/Nginx with PHP support
 
@@ -141,50 +141,7 @@ Munshiganj Poultry Feed is a local enterprise providing quality feed, chicks, an
 - Web server (Apache/Nginx)
 - Git for version control
 
-### Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/mustabirapurbo/MS-Poultry-Feed-Medicine.git
-
-# Navigate to project directory
-cd MS-Poultry-Feed-Medicine
-
-# Install dependencies (if using Laravel)
-composer install
-
-# Setup environment
-cp .env.example .env
-
-# Generate application key
-php artisan key:generate
-
-# Run migrations
-php artisan migrate
-
-# Start development server
-php artisan serve
-```
-
----
-
-## Project Structure
-
-```
-MS-Poultry-Feed-Medicine/
-├── backend/               # Laravel backend application
-│   ├── app/              # Application logic
-│   ├── database/         # Migrations and seeders
-│   ├── routes/           # API routes
-│   └── resources/        # API resources
-├── frontend/             # HTML/CSS/JavaScript frontend
-│   ├── css/              # Stylesheets
-│   ├── js/               # JavaScript files
-│   └── pages/            # HTML pages
-├── docs/                 # Documentation
-├── .env.example          # Environment variables template
-└── README.md             # This file
-```
 
 ---
 
